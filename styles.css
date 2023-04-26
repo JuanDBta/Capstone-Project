@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    width: 100vw;
-    height: auto;
-    display: block;
+  width: 100vw;
+  height: auto;
+  display: block;
 }
 
 header {
@@ -28,15 +28,15 @@ header {
 }
 
 #menu-button {
-    display: block;
-    margin-left: 7.2vw;
+  display: block;
+  margin-left: 7.2vw;
     
 }
 
 #menu-button img {
-    height: 7.1vw;
-    width: 7.8vw;
-    margin-top: 5.1vw;
+  height: 7.1vw;
+  width: 7.8vw;
+  margin-top: 5.1vw;
 }
 
 #closex {
@@ -62,59 +62,148 @@ header {
 }
 
 .hello {
-    width: 100vw;
-    height: 3vw;
-    font-family: Lato, sans-serif;
-    font-size: 5.2vw;
-    font-weight: 50;
-    color: rgb(250, 73, 0);
+  width: 100vw;
+  height: 3vw;
+  font-family: Lato, sans-serif;
+  font-size: 5.2vw;
+  font-weight: 50;
+  color: rgb(250, 73, 0);
 }
 
 .expo-title {
-    width: 100vw;
-    height: 5vw;
-    font-family: Cocogoose, sans-serif;
-    font-size: 5.5vw;
-    font-weight: 1200;
-    line-height: 5.5vw;
-    color: rgb(250, 73, 0);
-    padding-top: 4vw;
+  width: 100vw;
+  height: 5vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 5.5vw;
+  font-weight: 1200;
+  line-height: 5.5vw;
+  color: rgb(250, 73, 0);
+  padding-top: 4vw;
 }
 
 .intro {
-    width: 85vw;
-    height: 15vw;
-    font-family: Lato, sans-serif;
-    font-size: 2vw;
-    font-weight: 50;
-    line-height: 2.5vw;
-    color: rgb(80, 76, 76);
-    margin-top: 18vw;
-    border: 7px white solid;
-    padding: 2vw 2vw 2vw 2vw;
+  width: 85vw;
+  height: 15vw;
+  font-family: Lato, sans-serif;
+  font-size: 2vw;
+  font-weight: 50;
+  line-height: 2.5vw;
+  color: rgb(80, 76, 76);
+  margin-top: 18vw;
+  border: 7px white solid;
+  padding: 2vw 2vw 2vw 2vw;
 }
 
 .date {
-    width: 100vw;
-    height: 5vw;
-    font-family: Cocogoose, sans-serif;
-    font-size: 5vw;
-    font-weight: 1000;
-    line-height: 2vw;
-    color: rgb(80, 76, 76);
-    margin-top: 3vw;
+  width: 100vw;
+  height: 5vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 5vw;
+  font-weight: 1000;
+  line-height: 2vw;
+  color: rgb(80, 76, 76);
+  margin-top: 3vw;
 }
 
 .location {
-    width: 100vw;
-    height: 15vw;
-    font-family: Cocogoose, sans-serif;
-    font-size: 1.8vw;
-    font-weight: 700;
-    line-height: 2vw;
-    color: rgb(80, 76, 76);
-    margin-top: 1vw;
-    background-image: url("images/moneyfigure.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  width: 90vw;
+  height: 15vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 1.8vw;
+  font-weight: 700;
+  line-height: 2vw;
+  color: rgb(80, 76, 76);
+  margin-top: 1vw;
+  background-image: url("images/moneyfigure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#main-program {
+  display: block;
+  width: 100vw;
+  height: 140vw;
+  background-image: url("images/bgmain.jpg");
+  background-repeat: repeat;
+}
+
+.main-program-title {
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 4vw;
+  font-weight: 50;
+  line-height: 2.5vw;
+  color: white;
+  padding-top: 10vw;
+}
+
+.underline {
+  width: 7vw;
+  height: 0;
+  margin-left: 46vw;
+  margin-top: 5vw;
+  border: 1px rgb(250, 73, 0) solid;
+  border-radius: 0.5vw;
+}
+
+.cards {
+  width: 85vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1vw;
+  margin-left: 7vw;
+  margin-top: 5vw;
+}
+
+.card {
+  width: 85vw;
+  height: 15vw;
+  background-color: rgba(80, 78, 80, 0.5);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-img {
+  margin-left: 3vw;
+}
+
+.card-title {
+  margin-left: 0;
+  color: rgb(250, 73, 0);
+  font-family: Lato, sans-serif;
+  font-weight: 600;
+  font-size: 3vw;
+}
+
+.card-description {
+    width: 40vw;
+}
+
+.cardmain {
+    color:rgb(204, 198, 198);
+    border: 0;
+    font-size: 2vw;
+    margin-top: -1vw;
+    margin-left: 0;
+    line-height: 4vw;
+}
+
+#whole-program {
+    display: none;
+}
+
+.join-box {
+  width: 75vw;
+  height: 15vw;
+  margin-left: 12vw;
+  background-color:  rgb(245, 40, 13);
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 4vw;
 }
