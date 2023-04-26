@@ -30,7 +30,11 @@ header {
 #menu-button {
   display: block;
   margin-left: 7.2vw;
-    
+}
+
+.artist-photo img {
+  width: 20vw;
+  height: 20vw;
 }
 
 #menu-button img {
@@ -51,7 +55,7 @@ header {
   height: 65vw;
   padding-left: 5.2vw;
   background-color: rgb(246, 246, 246);
-  background-image: url("images/squares.jpg"),url("images/cc\ figure.jpg"),url("images/zero.jpg"),url("images/background3.jpg");
+  background-image: url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
   background-repeat: no-repeat;
   background-position-x: 70vw, 30vw, 10vw, 74.5vw;
   background-position-y: 2.5vw, 19vw, 22vw, 15.5vw;
@@ -181,27 +185,27 @@ header {
 }
 
 .card-description {
-    width: 40vw;
+  width: 40vw;
 }
 
 .cardmain {
-    color:rgb(204, 198, 198);
-    border: 0;
-    font-size: 2vw;
-    margin-top: -1vw;
-    margin-left: 0;
-    line-height: 4vw;
+  color: rgb(204, 198, 198);
+  border: 0;
+  font-size: 2vw;
+  margin-top: -1vw;
+  margin-left: 0;
+  line-height: 4vw;
 }
 
 #whole-program {
-    display: none;
+  display: none;
 }
 
 .join-box {
   width: 75vw;
   height: 15vw;
   margin-left: 12vw;
-  background-color:  rgb(245, 40, 13);
+  background-color: rgb(245, 40, 13);
   color: white;
   font-family: Lato, sans-serif;
   font-size: 4vw;
@@ -233,11 +237,6 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   gap: 4vw;
-}
-
-.artist-photo img {
-    width: 20vw;
-    height: 20vw;
 }
 
 .artists {
@@ -285,11 +284,9 @@ header {
   grid-row: 3;
   grid-column: 2;
   margin-top: 2vw;
-  margin-left: 1vw;
   width: 3vw;
   border-color: rgb(204, 198, 198);
   margin-left: 2vw;
-  
 }
 
 .artistwork-intro {
@@ -319,7 +316,7 @@ header {
   background-image: url("images/about-bg.png");
   background-repeat: repeat;
   background-size: cover;
-  padding-top: 5vw
+  padding-top: 5vw;
 }
 
 .about {
@@ -414,7 +411,7 @@ header {
   text-align: center;
 }
 
-#past-image2 img{
+#past-image2 img {
   margin-top: 5vw;
 }
 
