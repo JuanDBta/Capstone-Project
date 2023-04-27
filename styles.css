@@ -502,6 +502,10 @@ footer {
   padding-top: 5vw;
 }
 
+.partner-section {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
 
 header {
@@ -740,5 +744,159 @@ header {
   display: none;
 }
 
+.artists-container {
+  display: block;
+  width: 100vw;
+  height: 120vw;
+  margin-left: 10vw;
+}
 
+#featured-title {
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  color: rgb(80, 76, 76);
+  font-family: Lato, sans-serif;
+  font-size: 2vw;
+  font-weight: 700;
+  line-height: 2.5vw;
+  padding-top: 5vw;
+  margin-left: -11vw;
+}
+
+.artists-title {
+  margin-left: 37vw;
+}
+
+#artists-page {
+  width: 100vw;
+  height: 220vw;
+  margin-top: 10vw;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 15vw 15vw 15vw;
+  column-gap: 2vw;
+  row-gap: 2vw;
+}
+
+.artists {
+  width: 45vw;
+  height: 15vw;
+  display: grid;
+  grid-template-columns: 6vw 31.5vw;
+  grid-template-rows: 2vw 3vw 0.1vw 12vw;
+  column-gap: 0.5vw;
+  row-gap: 1vw;
+  margin-left: 1vw;
+}
+
+.artist-photo {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.artist-photo img{
+  width: 10vw;
+  height: 10vw;
+}
+.artist-name {
+  grid-row: 1;
+  grid-column: 2;
+  color: rgb(80, 76, 76);
+  font-family: Lato, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 700;
+  line-height: 2vw;
+  margin-top: 0;
+  margin-left: 4vw;
+}
+
+.artist-description {
+  grid-row: 2;
+  grid-column: 2;
+  font-family: Lato, sans-serif;
+  font-size: 0.9vw;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1.5vw;
+  color: rgb(250, 73, 0);
+  margin-top: -1vw;
+  margin-left: 4vw;
+}
+
+.art-techniques {
+  grid-row: 3;
+  grid-column: 2;
+  margin-top: -3.3vw;
+  width: 2vw;
+  border-color: rgb(204, 198, 198);
+  margin-left: 4vw;
+}
+
+.artistwork-intro {
+  grid-row: 4;
+  grid-column: 2;
+  font-family: Lato, sans-serif;
+  font-size: 1vw;
+  font-weight: 50;
+  line-height: 1.5vw;
+  color: rgb(80, 76, 76);
+  margin-top: -3.3vw;
+  margin-left: 4vw;
+}
+
+.partner-section {
+  display: block;
+  width: 100vw;
+  height: 40vw;
+  margin: 0;
+  margin-top: -160vw;
+  margin-left: -10vw;
+}
+
+.footer-container-desktop {
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(61, 60, 60);
+}
+
+.desktop-title {
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  font-family: Lato, sans-serif;
+  font-size: 2vw;
+  font-weight: 50;
+  line-height: 2.5vw;
+  color: rgb(204, 198, 198);
+}
+
+.partner-title-desktop {
+  margin-left: 0;
+  margin-top: -2vw;
+}
+
+.social-links-desktop-version{
+  width: 100vw;
+  height: 5vw;
+  margin-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.rights-desktop {
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 0;
+  background-color: rgb(244, 244, 244);
+}
 }
