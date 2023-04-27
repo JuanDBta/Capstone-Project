@@ -61,9 +61,8 @@ header {
   color: black;
 }
 
-#menu-button {
-  display: block;
-  margin-left: 7.2vw;
+.menu-button {
+  margin-left: 7vw;
 }
 
 .artist-photo img {
@@ -71,9 +70,9 @@ header {
   height: 20vw;
 }
 
-#menu-button img {
-  width: 8vw;
-  margin-top: 5.1vw;
+.menu-button img {
+  width: 8.2vw;
+  margin-top: 5.2vw;
 }
 
 #closex img {
@@ -87,7 +86,7 @@ header {
   background-color: rgb(246, 246, 246);
   background-image: url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
   background-repeat: no-repeat;
-  background-position-x: 70vw, 30vw, 10vw, 74.5vw;
+  background-position-x: 70vw, 30vw, 10vw, 74vw;
   background-position-y: 2.5vw, 19vw, 22vw, 15.5vw;
   display: flex;
   flex-direction: column;
@@ -122,7 +121,7 @@ header {
   font-weight: 50;
   line-height: 2.5vw;
   color: rgb(80, 76, 76);
-  margin-top: 18vw;
+  margin-top: 17.9vw;
   border: 7px white solid;
   padding: 2vw 2vw 2vw 2vw;
 }
@@ -333,13 +332,14 @@ header {
 
 #Headline-about {
   width: 100vw;
-  height: 80vw;
+  height: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url("images/about-bg.png");
   background-repeat: repeat;
   background-size: cover;
+  padding-bottom: 5vw;
 }
 
 .about {
@@ -500,4 +500,151 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   padding-top: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+
+header {
+  width: 100vw;
+  height: 3vw;
+  background-image: none;
+  background-color: rgb(61, 60, 60);
+}
+
+.menu-button {
+  display: none;
+}
+
+.social-media {
+  width: 100vw;
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  padding-right: 10vw;
+  gap: 2vw;
+}
+
+.social-media li a{
+  text-decoration: none;
+  color: white;
+  font-family: Cocogoose, sans-serif;
+  font-size: 1vw;
+}
+
+#facebook {
+  height: 1vw;
+  width: 1vw;
+}
+
+.nav-bar {
+  display: block;
+  position: relative;
+  width: 80vw;
+  height: 4vw;
+  background-color: white;
+  margin-left: 10vw;
+}
+
+#closex {
+  display: none;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 0;
+}
+
+.title-bar a {
+  font-family: Cocogoose, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 2vw;
+  text-decoration: none;
+  color: rgb(80, 76, 76);
+}
+
+#logo-navbar {
+  width: 10vw;
+  margin-right: 25vw;
+}
+
+#Headline {
+  width: 100vw;
+  height: 45vw;
+  padding-left: 10.2vw;
+  background-color: rgb(246, 246, 246);
+  background-image: url("images/background1.jpg"), url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
+  background-repeat: no-repeat;
+  background-position-x: 0, 70vw, 30vw, 10vw, 74vw;
+  background-position-y: 0, 2.5vw, 19vw, 22vw, 15.5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.hello {
+  width: 100vw;
+  height: 3vw;
+  font-family: Lato, sans-serif;
+  font-size: 2.8vw;
+  font-weight: 50;
+  color: rgb(250, 73, 0);
+  margin-top: 5vw;
+}
+
+.expo-title {
+  width: 100vw;
+  height: 5vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 4.2vw;
+  font-weight: 1200;
+  line-height: 4vw;
+  color: rgb(250, 73, 0);
+  padding-top: 1vw;
+}
+
+.intro {
+  width: 50vw;
+  height: 9vw;
+  font-family: Lato, sans-serif;
+  font-size: 0.8vw;
+  font-weight: 50;
+  line-height: 1.5vw;
+  color: rgb(80, 76, 76);
+  margin-top: 10.5vw;
+  border: 7px white solid;
+  padding: 2vw 2vw 2vw 2vw;
+}
+
+.date {
+  width: 100vw;
+  height: 5vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 3vw;
+  font-weight: 1000;
+  line-height: 2vw;
+  color: rgb(80, 76, 76);
+  margin-top: 3vw;
+}
+
+.location {
+  width: 90vw;
+  height: 15vw;
+  font-family: Cocogoose, sans-serif;
+  font-size: 1vw;
+  font-weight: 700;
+  line-height: 2vw;
+  color: rgb(80, 76, 76);
+  margin-top: 0;
+  background-image: url("images/moneyfigure.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 }
