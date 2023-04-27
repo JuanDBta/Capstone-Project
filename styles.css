@@ -11,20 +11,54 @@ body {
 }
 
 header {
-  display: none;
-}
-
-.social-media {
-  display: none;
-}
-
-#nav-bar {
   display: block;
   width: 100vw;
   height: 25vw;
   background-image: url("images/background1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.social-media {
+  display: none;
+}
+
+.nav-bar {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vw;
+  background-color: gainsboro;
+}
+
+.nav-bar.active {
+  display: block;
+}
+
+#closex {
+  display: block;
+  text-align: right;
+  padding-top: 10vw;
+  margin-right: 15vw;
+}
+
+.title-bar {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  text-align: center;
+  margin-top: 5vw;
+  gap: 4vw;
+}
+
+.title-bar a {
+  font-family: Cocogoose, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5vw;
+  line-height: 4vw;
+  text-decoration: none;
+  color: black;
 }
 
 #menu-button {
@@ -42,12 +76,8 @@ header {
   margin-top: 5.1vw;
 }
 
-#closex {
-  display: none;
-}
-
-.title-bar {
-  display: none;
+#closex img {
+  width: 5vw;
 }
 
 #Headline {
@@ -301,22 +331,15 @@ header {
   margin-left: 2vw;
 }
 
-#menu-button-about {
-  width: 100vw;
-  height: 9vw;
-  background-color: rgb(238, 238, 238);
-}
-
 #Headline-about {
   width: 100vw;
-  height: 65vw;
+  height: 80vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-image: url("images/about-bg.png");
   background-repeat: repeat;
   background-size: cover;
-  padding-top: 5vw;
 }
 
 .about {
