@@ -330,7 +330,7 @@ footer {
     justify-content: flex-end;
     list-style: none;
     padding-right: 10vw;
-    padding-top: 0.5vw;
+    padding-top: 0;
     gap: 2vw;
   }
 
