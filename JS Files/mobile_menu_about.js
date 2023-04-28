@@ -27,4 +27,3 @@ window.addEventListener('resize', () => {
     header.style.display = 'none';
   }
 });
-
