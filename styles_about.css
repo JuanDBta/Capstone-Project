@@ -170,6 +170,7 @@ body {
 .logo-intro {
   margin-top: 0;
   text-align: center;
+  border: 0;
 }
 
 .logo-intro-desktop {
@@ -205,6 +206,7 @@ body {
 .past-intro {
   margin-top: 0;
   text-align: center;
+  border: 0;
 }
 
 #past-image2 img {
@@ -253,6 +255,19 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style: none;
+}
+
+#banco {
+  width: 8vw;
+}
+
+#google {
+  width: 8vw;
+}
+
+#rep {
+  width: 8vw;
 }
 
 .social-links2 {
@@ -261,8 +276,18 @@ footer {
   margin-top: 10vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#pinter {
+  width: 8vw;
+  margin-right: 9vw;
+}
+
+#air {
+  width: 8vw;
+  margin-left: 9vw;
 }
 
 .rights {
@@ -401,7 +426,7 @@ footer {
     color: #272a31;
     padding: 2vw 2vw 2vw 2vw;
     width: 63vw;
-    height: 10vw;
+    height: 20vw;
     text-align: center;
     border: 0.5px #d3d3d3 solid;
     background-color: white;
@@ -462,6 +487,7 @@ footer {
     line-height: 1.5vw;
     margin-top: 1vw;
     text-align: center;
+    height: 10vw;
   }
 
   #featured-title-past {
@@ -558,10 +584,7 @@ footer {
   .rights-desktop-text {
     font-size: 1vw;
     margin-left: 0.5vw;
+    color: #d3d3d3;
   }
 
-  #rigths-logodesktop img {
-    width: 45vw;
-    margin-top: 1vw;
-  }
 }
