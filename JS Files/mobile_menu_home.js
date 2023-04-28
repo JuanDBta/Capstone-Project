@@ -28,7 +28,6 @@ window.addEventListener('resize', () => {
   }
 });
 
-
 links.forEach((link) => {
   link.addEventListener('click', (event) => {
     event.preventDefault();
