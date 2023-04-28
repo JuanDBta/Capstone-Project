@@ -33,7 +33,6 @@ body {
   margin-right: 15vw;
 }
 
-
 .title-bar {
   display: flex;
   flex-direction: column;
@@ -110,7 +109,6 @@ body {
   border: 7px white solid;
   padding: 2vw 2vw 2vw 2vw;
 }
-
 
 .about {
   text-align: center;
@@ -313,20 +311,15 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  
   .menu-button {
     display: none;
-  }  
+  }
 
   header {
     width: 100vw;
     height: 3vw;
     background-image: none;
     background-color: rgb(61, 60, 60);
-  }
-
-  .menu-button {
-    display: none;
   }
 
   .social-media {
@@ -393,7 +386,7 @@ footer {
     width: 10vw;
     margin-right: 25vw;
   }
-  
+
   #Headline-about {
     align-items: center;
     height: 50vw;
@@ -447,7 +440,7 @@ footer {
 
   #Logo-section {
     width: 100vw;
-    height: 80vw;
+    height: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -541,7 +534,7 @@ footer {
   }
 
   .footer-container {
-    display: block;
+    display: none;
   }
 
   .rightsdesktop {
