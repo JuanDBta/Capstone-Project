@@ -52,7 +52,7 @@ body {
   color: black;
 }
 
-.menu-button {
+#menu-button {
   margin-left: 7vw;
 }
 
@@ -77,7 +77,7 @@ body {
   padding-bottom: 5vw;
 }
 
-.hello {
+.about {
   width: 100vw;
   height: 3vw;
   font-family: Lato, sans-serif;
@@ -86,7 +86,7 @@ body {
   color: rgb(250, 73, 0);
 }
 
-.expo-title {
+.about-title {
   width: 100vw;
   height: 5vw;
   font-family: Cocogoose, sans-serif;
@@ -97,7 +97,7 @@ body {
   padding-top: 4vw;
 }
 
-.intro {
+.about-intro {
   width: 85vw;
   height: 15vw;
   font-family: Lato, sans-serif;
@@ -311,7 +311,7 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .menu-button {
+  #menu-button {
     display: none;
   }
 
@@ -440,7 +440,7 @@ footer {
 
   #Logo-section {
     width: 100vw;
-    height: 100vw;
+    height: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -485,7 +485,7 @@ footer {
     text-align: center;
     color: rgb(80, 76, 76);
     font-family: Lato, sans-serif;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 700;
     padding-top: 5vw;
     border-top: 1px rgb(238, 238, 238) solid;
@@ -494,13 +494,20 @@ footer {
 
   .past-desktop {
     margin-left: 0;
-    margin-top: 5vw;
-    width: 2vw;
+    margin-top: 3vw;
+    width: 3vw;
   }
 
   .past-intro {
-    margin-top: -1.5vw;
+    margin-top: 3vw;
     text-align: center;
+    font-size: 1vw;
+    border: 0;
+    background: none;
+    margin-left: 0;
+    height: 3vw;
+    margin-top: 2vw;
+    padding: 0;
   }
 
   #past-images {
@@ -511,6 +518,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 1vw;
+    margin-top: 1vw;
   }
 
   #past-image1 img {

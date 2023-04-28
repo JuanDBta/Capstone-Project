@@ -61,7 +61,7 @@ header {
   color: black;
 }
 
-.menu-button {
+#menu-button {
   margin-left: 7vw;
 }
 
@@ -70,7 +70,7 @@ header {
   height: 20vw;
 }
 
-.menu-button img {
+#menu-button img {
   width: 8.2vw;
   margin-top: 5.2vw;
 }
@@ -342,7 +342,7 @@ footer {
     background-color: rgb(61, 60, 60);
   }
 
-  .menu-button {
+  #menu-button {
     display: none;
   }
 
