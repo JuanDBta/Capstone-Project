@@ -2,10 +2,10 @@
 
 <div align="center">
  
-  <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
+  <img src="\images\cardenasbackground.jpg"" alt="logo" width="160"  height="auto" />
   <br/>
 
-  <h3><b>Capstone Project</b></h3>
+  <h3><b>Capstone Project: GM Art Expo 2023</b></h3>
 
 </div>
 
@@ -31,7 +31,7 @@
 - [📝 License](#license)
 
 
-# 📖 Mobile Portfolio Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
 **[Capstone Project]** is the first project for building an Art exposition Website that will be a main tool in the Web Developer career.
 
