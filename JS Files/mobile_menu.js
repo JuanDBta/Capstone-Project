@@ -21,7 +21,7 @@ closeButton.addEventListener('click', () => {
 });
 
 window.addEventListener('resize', () => {
-  if (window.innerWidth <= 768) {
+  if (window.innerWidth >= 768) {
     header.style.display = 'block';
   } else {
     header.style.display = 'none';
