@@ -1,114 +1,241 @@
-#Headline-about {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  display: block;
+}
+
+.social-media {
+  display: none;
+}
+
+.nav-bar {
+    display: none;
+    position: fixed;
     width: 100vw;
-    height: 70vw;
+    height: 100vw;
+    background-color: gainsboro;
+  }
+  
+  .nav-bar.active {
+    display: block;
+  }
+  
+  #closex {
+    display: block;
+    text-align: right;
+    padding-top: 10vw;
+    margin-right: 15vw;
+  }
+  
+
+  .title-bar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-image: url("images/about-bg.png");
-    background-repeat: repeat;
-    background-size: cover;
-    padding-bottom: 5vw;
-  }
-  
-  .about {
+    list-style: none;
     text-align: center;
+    margin-top: 5vw;
+    gap: 4vw;
   }
   
-  .about-title {
-    text-align: center;
-  }
-  
-  .about-intro {
-    width: 83vw;
-    height: 25vw;
-    margin-left: 7vw;
-    text-align: center;
-    border: 0.5px rgb(245, 245, 245) solid;
-    background-color: white;
-    margin-top: 12vw;
-    font-size: 3vw;
-    line-height: 3.5vw;
-  }
-  
-  .contact {
-    border: 0;
-    margin-top: 1vw;
-    text-align: center;
-    margin-left: 8vw;
-    height: 7vw;
-  }
-  
-  #email-about {
-    text-align: center;
-  }
-  
-  #email-about a {
+  .title-bar a {
+    font-family: Cocogoose, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 4vw;
+    text-decoration: none;
     color: black;
   }
   
-  #Logo-section {
-    width: 100vw;
-    height: 160vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+  .menu-button {
+    margin-left: 7vw;
   }
   
-  #logo-title {
-    line-height: 5vw;
-    width: 100vw;
-    height: 5vw;
-    text-align: center;
-    color: rgb(80, 76, 76);
-    font-family: Lato, sans-serif;
-    font-size: 4vw;
-    font-weight: 700;
-    padding-top: 5vw;
+  .menu-button img {
+    width: 8.2vw;
+    margin-top: 5.2vw;
   }
   
-  .logo {
-    width: 4vw;
-    margin-left: 0;
-    margin-top: 12vw;
+  #closex img {
+    width: 5vw;
   }
   
-  .logo-intro {
-    margin-top: 0;
-    text-align: center;
-  }
-  
-  #featured-title-past {
-    line-height: 5vw;
-    width: 100vw;
-    height: 5vw;
-    text-align: center;
-    color: rgb(80, 76, 76);
-    font-family: Lato, sans-serif;
-    font-size: 4vw;
-    font-weight: 700;
-    padding-top: 5vw;
-    border-top: 1px rgb(238, 238, 238) solid;
-  }
-  
-  .past {
-    width: 4vw;
-    margin-left: 0;
-    margin-top: 7vw;
-  }
-  
-  .past-intro {
-    margin-top: 0;
-    text-align: center;
-  }
-  
-  #past-image2 img {
-    margin-top: 5vw;
-  }
- 
-@media screen and (min-width: 768px) { 
+#Headline-about {
+  width: 100vw;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("images/about-bg.png");
+  background-repeat: repeat;
+  background-size: cover;
+  padding-bottom: 5vw;
+}
 
-  #Headline-about {
+.hello {
+    width: 100vw;
+    height: 3vw;
+    font-family: Lato, sans-serif;
+    font-size: 5.2vw;
+    font-weight: 50;
+    color: rgb(250, 73, 0);
+  }
+  
+  .expo-title {
+    width: 100vw;
+    height: 5vw;
+    font-family: Cocogoose, sans-serif;
+    font-size: 5.5vw;
+    font-weight: 1200;
+    line-height: 5.5vw;
+    color: rgb(250, 73, 0);
+    padding-top: 4vw;
+  }
+  
+  .intro {
+    width: 85vw;
+    height: 15vw;
+    font-family: Lato, sans-serif;
+    font-size: 2vw;
+    font-weight: 50;
+    line-height: 2.5vw;
+    color: rgb(80, 76, 76);
+    margin-top: 17.9vw;
+    border: 7px white solid;
+    padding: 2vw 2vw 2vw 2vw;
+  }
+  
+
+.about {
+  text-align: center;
+}
+
+.about-title {
+  text-align: center;
+}
+
+.about-intro {
+  width: 83vw;
+  height: 25vw;
+  margin-left: 7vw;
+  text-align: center;
+  border: 0.5px rgb(245, 245, 245) solid;
+  background-color: white;
+  margin-top: 12vw;
+  font-size: 3vw;
+  line-height: 3.5vw;
+}
+
+.underline {
+    width: 7vw;
+    height: 0;
+    margin-left: 46vw;
+    margin-top: 5vw;
+    border: 1px rgb(250, 73, 0) solid;
+    border-radius: 0.5vw;
+  }
+
+.contact {
+  border: 0;
+  margin-top: 1vw;
+  text-align: center;
+  margin-left: 8vw;
+  height: 7vw;
+}
+
+#email-about {
+  text-align: center;
+}
+
+#email-about a {
+  color: black;
+}
+
+#Logo-section {
+  width: 100vw;
+  height: 160vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#logo-title {
+  line-height: 5vw;
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  color: rgb(80, 76, 76);
+  font-family: Lato, sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  padding-top: 5vw;
+}
+
+.logo {
+  width: 4vw;
+  margin-left: 0;
+  margin-top: 12vw;
+}
+
+.logo-intro {
+  margin-top: 0;
+  text-align: center;
+}
+
+.logo-intro-desktop {
+    display: none;
+}
+
+#featured-title-past {
+  line-height: 5vw;
+  width: 100vw;
+  height: 5vw;
+  text-align: center;
+  color: rgb(80, 76, 76);
+  font-family: Lato, sans-serif;
+  font-size: 4vw;
+  font-weight: 700;
+  margin-top: 7vw;
+  padding-top: 5vw;
+  border-top: 1px rgb(238, 238, 238) solid;
+  padding-bottom: 2vw;
+}
+
+.past-desktop {
+    margin-left: 0;
+    width: 3vw;
+}
+
+.past {
+  width: 4vw;
+  margin-left: 0;
+  margin-top: 7vw;
+}
+
+.past-intro {
+  margin-top: 0;
+  text-align: center;
+}
+
+#past-image2 img {
+  margin-top: 5vw;
+}
+
+footer {
+  width: 100vw;
+  height: 
+}
+
+@media screen and (min-width: 768px) {
+
+    #Headline-about {
     align-items: center;
     height: 50vw;
     margin-left: 0;
@@ -280,3 +407,4 @@
     width: 45vw;
     margin-top: 1vw;
   }
+}
