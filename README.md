@@ -71,7 +71,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://www.loom.com/share/0524f28eca464fb097b9c347393b10f4)
+- [Live Demo Link](https://juandbta.github.io/Capstone-Project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +113,7 @@ Open mobile.html using live server extension.
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
-- Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
+- Loom: [Loom]((https://www.loom.com/share/0524f28eca464fb097b9c347393b10f4))
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
