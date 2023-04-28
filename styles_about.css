@@ -1,0 +1,282 @@
+#Headline-about {
+    width: 100vw;
+    height: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("images/about-bg.png");
+    background-repeat: repeat;
+    background-size: cover;
+    padding-bottom: 5vw;
+  }
+  
+  .about {
+    text-align: center;
+  }
+  
+  .about-title {
+    text-align: center;
+  }
+  
+  .about-intro {
+    width: 83vw;
+    height: 25vw;
+    margin-left: 7vw;
+    text-align: center;
+    border: 0.5px rgb(245, 245, 245) solid;
+    background-color: white;
+    margin-top: 12vw;
+    font-size: 3vw;
+    line-height: 3.5vw;
+  }
+  
+  .contact {
+    border: 0;
+    margin-top: 1vw;
+    text-align: center;
+    margin-left: 8vw;
+    height: 7vw;
+  }
+  
+  #email-about {
+    text-align: center;
+  }
+  
+  #email-about a {
+    color: black;
+  }
+  
+  #Logo-section {
+    width: 100vw;
+    height: 160vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  #logo-title {
+    line-height: 5vw;
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+    color: rgb(80, 76, 76);
+    font-family: Lato, sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 5vw;
+  }
+  
+  .logo {
+    width: 4vw;
+    margin-left: 0;
+    margin-top: 12vw;
+  }
+  
+  .logo-intro {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  #featured-title-past {
+    line-height: 5vw;
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+    color: rgb(80, 76, 76);
+    font-family: Lato, sans-serif;
+    font-size: 4vw;
+    font-weight: 700;
+    padding-top: 5vw;
+    border-top: 1px rgb(238, 238, 238) solid;
+  }
+  
+  .past {
+    width: 4vw;
+    margin-left: 0;
+    margin-top: 7vw;
+  }
+  
+  .past-intro {
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  #past-image2 img {
+    margin-top: 5vw;
+  }
+ 
+@media screen and (min-width: 768px) { 
+
+  #Headline-about {
+    align-items: center;
+    height: 50vw;
+    margin-left: 0;
+    background-size: contain;
+  }
+
+  .about {
+    display: none;
+  }
+
+  .about-title {
+    font-size: 3vw;
+    margin-top: 5vw;
+  }
+
+  .about-intro {
+    width: 63vw;
+    height: 17vw;
+    text-align: center;
+    border: 0.5px rgb(245, 245, 245) solid;
+    background-color: white;
+    margin-top: 8vw;
+    margin-left: 5vw;
+    font-size: 2.2vw;
+    line-height: 2.5vw;
+  }
+
+  .contact {
+    width: 40vw;
+    border: 0;
+    margin-top: 1vw;
+    text-align: center;
+    margin-left: 0;
+    height: 4vw;
+    font-size: 1vw;
+  }
+
+  #Logo-section {
+    width: 100vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  #logo-title {
+    line-height: 5vw;
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+    color: rgb(80, 76, 76);
+    font-family: Lato, sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    padding-top: 5vw;
+  }
+
+  .logo {
+    width: 4vw;
+    margin-left: 0;
+    margin-top: 5vw;
+  }
+
+  .logo-intro {
+    display: none;
+  }
+
+  .logo-intro-desktop {
+    display: block;
+    font-size: 1vw;
+    width: 60vw;
+    line-height: 1.5vw;
+    margin-top: 1vw;
+    text-align: center;
+  }
+
+  #featured-title-past {
+    line-height: 5vw;
+    width: 100vw;
+    height: 5vw;
+    text-align: center;
+    color: rgb(80, 76, 76);
+    font-family: Lato, sans-serif;
+    font-size: 2vw;
+    font-weight: 700;
+    padding-top: 5vw;
+    border-top: 1px rgb(238, 238, 238) solid;
+    margin-top: 5vw;
+  }
+
+  .past-desktop {
+    margin-left: 0;
+    margin-top: 5vw;
+    width: 2vw;
+  }
+
+  .past-intro {
+    margin-top: -1.5vw;
+    text-align: center;
+  }
+
+  #past-images {
+    width: 80vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+  }
+
+  #past-image1 img {
+    margin-top: 0;
+    width: 30vw;
+  }
+
+  #past-image2 img {
+    margin-top: 0;
+    width: 30vw;
+  }
+
+  footer {
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    background-color: (61, 60, 60);
+  }
+
+  .footer-container {
+    display: block;
+  }
+
+  .rightsdesktop {
+    width: 100vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding-top: 0;
+    background-color: rgb(43, 42, 42);
+  }
+
+  .rights {
+    display: none;
+  }
+
+  #textrightscontainerdesktop {
+    color: rgb(204, 198, 198);
+  }
+
+  #last-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .rights-desktop-text {
+    font-size: 1vw;
+    margin-left: 0.5vw;
+  }
+
+  #rigths-logodesktop img {
+    width: 45vw;
+    margin-top: 1vw;
+  }
