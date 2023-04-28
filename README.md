@@ -33,7 +33,7 @@
 
 # 📖 Mobile Portfolio Project <a name="about-project"></a>
 
-**[Mobile Website Portfolio]** is the first project for building a Personal Mobile Website that will be a main tool in the Web Developer career.
+**[Capstone Project]** is the first project for building an Art exposition Website that will be a main tool in the Web Developer career.
 
 ## 🛠 Built With <a name="built-with"></a>
 1- HTML
@@ -41,7 +41,7 @@
 3- JS
 4- Linters
 5- Flexbox
-6-  Grid Layout
+6- Grid Layout
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -57,17 +57,14 @@
 
 ### Key Features <a name="key-features"></a>
 
-
-
-- **[Added index.html]**
-- **[Added styles.css]**
-- **[Added .gitignore]**
+- **[Added index_home.html]**
+- **[Added index_about.html]**
+- **[Added styles_home.css]**
+- **[Added styles_about.css]**
+- **[Added /JS Files**
 - **[Added /images]**
-- **[Added NavBar Mobile Section]**
-- **[Added Headline Mobile Section]**
-- **[Added Artists Mobile section]**
-- **[Added About Me Mobile section]**
-- **[Added Desktop Version using media query]**
+- **[Added Menu Mobile Popup Window]**
+- **[Added Desktop and Mobile Version using media query]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -137,6 +134,9 @@ If you like this project, please give me a like, it doesn't cost you anything an
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Bee in Student Success who is always avalaible to solve issues and Microverse for push us to work hard every day!
+
+Most of images, logos and art was given by
+https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

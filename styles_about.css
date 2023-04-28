@@ -8,6 +8,7 @@ body {
   width: 100vw;
   height: auto;
   display: block;
+  overflow-x: hidden;
 }
 
 .social-media {
