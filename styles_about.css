@@ -52,7 +52,7 @@ body {
   font-size: 5vw;
   line-height: 4vw;
   text-decoration: none;
-  color: black;
+  color: #272a31;
 }
 
 #menu-button {
@@ -86,7 +86,7 @@ body {
   font-family: Lato, sans-serif;
   font-size: 5.2vw;
   font-weight: 50;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@ body {
   font-size: 5.5vw;
   font-weight: 1200;
   line-height: 5.5vw;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   padding-top: 4vw;
   text-align: center;
 }
@@ -107,7 +107,7 @@ body {
   height: 20vw;
   margin-left: 9vw;
   text-align: center;
-  border: 0.5px rgb(245, 245, 245) solid;
+  border: 0.5px #d3d3d3 solid;
   background-color: white;
   margin-top: 12vw;
   font-size: 3vw;
@@ -120,7 +120,7 @@ body {
   height: 0;
   margin-left: 46vw;
   margin-top: 5vw;
-  border: 1px rgb(250, 73, 0) solid;
+  border: 1px #ec5242 solid;
   border-radius: 0.5vw;
 }
 
@@ -137,7 +137,7 @@ body {
 }
 
 #email-about a {
-  color: black;
+  color: #272a31;
 }
 
 #Logo-section {
@@ -154,7 +154,7 @@ body {
   width: 100vw;
   height: 5vw;
   text-align: center;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   font-family: Lato, sans-serif;
   font-size: 4vw;
   font-weight: 700;
@@ -181,13 +181,13 @@ body {
   width: 100vw;
   height: 5vw;
   text-align: center;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   font-family: Lato, sans-serif;
   font-size: 4vw;
   font-weight: 700;
   margin-top: 7vw;
   padding-top: 5vw;
-  border-top: 1px rgb(238, 238, 238) solid;
+  border-top: 1px #d3d3d3 solid;
   padding-bottom: 2vw;
 }
 
@@ -304,7 +304,7 @@ footer {
     width: 100vw;
     height: 3vw;
     background-image: none;
-    background-color: rgb(61, 60, 60);
+    background-color: #272a31;
   }
 
   .social-media {
@@ -351,7 +351,7 @@ footer {
     position: relative;
     width: 80vw;
     height: 4vw;
-    background-color: white;
+    background-color: #d3d3d3;
     margin-left: 10vw;
     background-image: none;
   }
@@ -392,19 +392,19 @@ footer {
     font-family: Cocogoose, sans-serif;
     font-weight: 1200;
     line-height: 4vw;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
   }
 
   .about-intro {
     font-family: Lato, sans-serif;
     font-weight: 50;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     padding: 2vw 2vw 2vw 2vw;
     width: 63vw;
     height: 19vw;
     text-align: center;
-    border: 0.5px rgb(245, 245, 245) solid;
-    background-color: white;
+    border: 0.5px #d3d3d3 solid;
+    background-color: #d3d3d3;
     margin-top: 8vw;
     margin-left: 5vw;
     font-size: 2.2vw;
@@ -414,7 +414,7 @@ footer {
   .contact {
     font-family: Lato, sans-serif;
     font-weight: 50;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     width: 40vw;
     border: 0;
     margin-top: 1vw;
@@ -438,7 +438,7 @@ footer {
     width: 100vw;
     height: 5vw;
     text-align: center;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     font-family: Lato, sans-serif;
     font-size: 2vw;
     font-weight: 700;
@@ -469,12 +469,12 @@ footer {
     width: 100vw;
     height: 5vw;
     text-align: center;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     font-family: Lato, sans-serif;
     font-size: 3vw;
     font-weight: 700;
     padding-top: 5vw;
-    border-top: 1px rgb(238, 238, 238) solid;
+    border-top: 1px #d3d3d3 solid;
     margin-top: 5vw;
   }
 
@@ -523,7 +523,6 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
-    background-color: (61, 60, 60);
   }
 
   .footer-container {
@@ -539,7 +538,7 @@ footer {
     align-items: center;
     gap: 2vw;
     padding-top: 0;
-    background-color: rgb(43, 42, 42);
+    background-color: #272a31;
   }
 
   .rights {
@@ -547,7 +546,7 @@ footer {
   }
 
   #textrightscontainerdesktop {
-    color: rgb(204, 198, 198);
+    color: #d3d3d3;
   }
 
   #last-container {
