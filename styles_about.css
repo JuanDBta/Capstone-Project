@@ -351,7 +351,7 @@ footer {
     position: relative;
     width: 80vw;
     height: 4vw;
-    background-color: #d3d3d3;
+    background-color: white;
     margin-left: 10vw;
     background-image: none;
   }
@@ -401,10 +401,10 @@ footer {
     color: #272a31;
     padding: 2vw 2vw 2vw 2vw;
     width: 63vw;
-    height: 19vw;
+    height: 10vw;
     text-align: center;
     border: 0.5px #d3d3d3 solid;
-    background-color: #d3d3d3;
+    background-color: white;
     margin-top: 8vw;
     margin-left: 5vw;
     font-size: 2.2vw;
@@ -426,7 +426,7 @@ footer {
 
   #Logo-section {
     width: 100vw;
-    height: 95vw;
+    height: 85vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
