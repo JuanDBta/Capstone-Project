@@ -27,19 +27,3 @@ window.addEventListener('resize', () => {
     header.style.display = 'block';
   }
 });
-
-links.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    event.preventDefault();
-    const target = link.getAttribute('href');
-    const targetElement = document.querySelector(target);
-    const navHeight = document.querySelector('.nav-bar').offsetHeight;
-    const targetPosition = targetElement.offsetTop - navHeight;
-    window.scrollTo({
-      top: targetPosition,
-      behavior: 'smooth',
-    });
-    navBar.classList.remove('active');
-    header.style.display = 'block';
-  });
-});

@@ -15,9 +15,9 @@ header {
   display: block;
   width: 100vw;
   height: 25vw;
-  background-image: url("images/background1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("images/cardenales.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
 }
 
 .social-media {
@@ -29,7 +29,9 @@ header {
   position: fixed;
   width: 100vw;
   height: 100vw;
-  background-color: gainsboro;
+  background-image: url("images/cardenasbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-bar.active {
@@ -393,6 +395,7 @@ footer {
     height: 4vw;
     background-color: white;
     margin-left: 10vw;
+    background-image: none;
   }
 
   #closex {
@@ -417,10 +420,11 @@ footer {
     height: 45vw;
     padding-left: 10.2vw;
     background-color: rgb(246, 246, 246);
-    background-image: url("images/background1.jpg"), url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
-    background-repeat: no-repeat;
+    background-image: url("images/cardenasbackground.jpg"), url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
+    background-repeat: repeat-x no-repeat no-repeat no-repeat no-repeat;
     background-position-x: 0, 70vw, 30vw, 10vw, 74vw;
     background-position-y: 0, 2.5vw, 19vw, 22vw, 15.5vw;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -480,9 +484,7 @@ footer {
     line-height: 2vw;
     color: rgb(80, 76, 76);
     margin-top: 0;
-    background-image: url("images/moneyfigure.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: none;
   }
 
   #main-program {

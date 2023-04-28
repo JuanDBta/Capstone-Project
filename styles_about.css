@@ -20,7 +20,9 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vw;
-  background-color: gainsboro;
+  background-image: url("images/cardenasbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-bar.active {
@@ -351,6 +353,7 @@ footer {
     height: 4vw;
     background-color: white;
     margin-left: 10vw;
+    background-image: none;
   }
 
   #closex {
@@ -398,7 +401,7 @@ footer {
     color: rgb(80, 76, 76);
     padding: 2vw 2vw 2vw 2vw;
     width: 63vw;
-    height: 17vw;
+    height: 19vw;
     text-align: center;
     border: 0.5px rgb(245, 245, 245) solid;
     background-color: white;
