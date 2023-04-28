@@ -12,12 +12,12 @@ body {
 }
 
 header {
-  display: block;
+  display: none;
   width: 100vw;
   height: 25vw;
-  background-image: url("images/cardenales.jpg");
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url("images/cardenasbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social-media {
@@ -86,11 +86,9 @@ header {
   width: 100vw;
   height: 65vw;
   padding-left: 5.2vw;
-  background-color: #d3d3d3;
-  background-image: url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
+  background-image: url("images/cardenasbackground.jpg");
   background-repeat: no-repeat;
-  background-position-x: 70vw, 30vw, 10vw, 74vw;
-  background-position-y: 2.5vw, 19vw, 22vw, 15.5vw;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -149,9 +147,6 @@ header {
   line-height: 2vw;
   color: #272a31;
   margin-top: 1vw;
-  background-image: url("images/moneyfigure.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #main-program {
@@ -393,7 +388,7 @@ footer {
     position: relative;
     width: 80vw;
     height: 4vw;
-    background-color: #d3d3d3;
+    background-color: white;
     margin-left: 10vw;
     background-image: none;
   }
