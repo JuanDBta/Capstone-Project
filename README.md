@@ -17,6 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Video Intro](#video-intro)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -69,6 +70,14 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video Intro <a name="video-intro"></a>
+
+Check this link to get a short introduction of my project:
+
+- Loom: [Loom](https://www.loom.com/share/0524f28eca464fb097b9c347393b10f4)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://juandbta.github.io/Capstone-Project/)
@@ -106,14 +115,12 @@ Open mobile.html using live server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Micronaut JUAN DAVID DIAZ**
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
-- Loom: [Loom]((https://www.loom.com/share/0524f28eca464fb097b9c347393b10f4))
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
