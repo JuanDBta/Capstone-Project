@@ -177,6 +177,10 @@ body {
   display: none;
 }
 
+#logo-about {
+  margin-top: 5vw;
+}
+
 #featured-title-past {
   line-height: 5vw;
   width: 100vw;
@@ -207,10 +211,58 @@ body {
   margin-top: 0;
   text-align: center;
   border: 0;
+  height: 10vw;
+  margin-left: -3vw;
+}
+
+#past-images {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+#past-image1 {
+  width: 65vw;
+  height: 55vw;
+}
+
+#past-image1 img {
+  width: 65vw;
+  height: 45vw;
+}
+
+.img-textyear {
+  position: relative;
+  margin-top: -35vw;
+  margin-left: 21vw;
+  font-size: 10vw;
+  font-family: Lato, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.img-text {
+  position: relative;
+  margin-top: 1vw;
+  margin-left: 10vw;
+  font-size: 5vw;
+  font-family: Lato, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+#past-images2 {
+  width: 70vw;
+  height: 65vw;
 }
 
 #past-image2 img {
-  margin-top: 5vw;
+  width: 65vw;
+  height: 45vw;
 }
 
 footer {
@@ -451,7 +503,7 @@ footer {
 
   #Logo-section {
     width: 100vw;
-    height: 85vw;
+    height: 95vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -521,27 +573,6 @@ footer {
     padding: 0;
   }
 
-  #past-images {
-    width: 80vw;
-    height: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1vw;
-    margin-top: 1vw;
-  }
-
-  #past-image1 img {
-    margin-top: 0;
-    width: 30vw;
-  }
-
-  #past-image2 img {
-    margin-top: 0;
-    width: 30vw;
-  }
-
   footer {
     width: 100vw;
     height: 15vw;
@@ -587,4 +618,56 @@ footer {
     color: #d3d3d3;
   }
 
+  .img-textyear {
+    position: relative;
+    margin-top: -15vw;
+    margin-left: 10vw;
+    font-size: 5vw;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    color: white;
+  }
+
+  .img-text {
+    position: relative;
+    margin-top: 1vw;
+    margin-left: 7vw;
+    font-size: 2vw;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    color: white;
+  }
+
+  #past-images {
+    width: 80vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 0;
+  }
+
+  #past-image1 img {
+    margin-top: 0;
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image2 img {
+    margin-top: 0;
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image1 {
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image2 {
+    width: 30vw;
+    height: 20vw;
+  }
 }

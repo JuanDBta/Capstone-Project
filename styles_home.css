@@ -721,6 +721,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     margin-left: 12vw;
+    list-style: none;
   }
 
   .rights-desktop {
@@ -741,11 +742,11 @@ footer {
   #banco {
     width: 8vw;
   }
-  
+
   #google {
     width: 8vw;
   }
-  
+
   #rep {
     width: 8vw;
   }
@@ -753,8 +754,8 @@ footer {
   #pinter {
     width: 8vw;
   }
-  
+
   #air {
     width: 8vw;
-  }  
+  }
 }
