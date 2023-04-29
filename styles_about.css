@@ -52,7 +52,7 @@ body {
   font-size: 5vw;
   line-height: 4vw;
   text-decoration: none;
-  color: black;
+  color: #272a31;
 }
 
 #menu-button {
@@ -86,7 +86,7 @@ body {
   font-family: Lato, sans-serif;
   font-size: 5.2vw;
   font-weight: 50;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@ body {
   font-size: 5.5vw;
   font-weight: 1200;
   line-height: 5.5vw;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   padding-top: 4vw;
   text-align: center;
 }
@@ -107,7 +107,7 @@ body {
   height: 20vw;
   margin-left: 9vw;
   text-align: center;
-  border: 0.5px rgb(245, 245, 245) solid;
+  border: 0.5px #d3d3d3 solid;
   background-color: white;
   margin-top: 12vw;
   font-size: 3vw;
@@ -120,7 +120,7 @@ body {
   height: 0;
   margin-left: 46vw;
   margin-top: 5vw;
-  border: 1px rgb(250, 73, 0) solid;
+  border: 1px #ec5242 solid;
   border-radius: 0.5vw;
 }
 
@@ -137,12 +137,12 @@ body {
 }
 
 #email-about a {
-  color: black;
+  color: #272a31;
 }
 
 #Logo-section {
   width: 100vw;
-  height: 200vw;
+  height: 215vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -154,7 +154,7 @@ body {
   width: 100vw;
   height: 5vw;
   text-align: center;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   font-family: Lato, sans-serif;
   font-size: 4vw;
   font-weight: 700;
@@ -170,10 +170,15 @@ body {
 .logo-intro {
   margin-top: 0;
   text-align: center;
+  border: 0;
 }
 
 .logo-intro-desktop {
   display: none;
+}
+
+#logo-about {
+  margin-top: 5vw;
 }
 
 #featured-title-past {
@@ -181,13 +186,13 @@ body {
   width: 100vw;
   height: 5vw;
   text-align: center;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   font-family: Lato, sans-serif;
   font-size: 4vw;
   font-weight: 700;
   margin-top: 7vw;
   padding-top: 5vw;
-  border-top: 1px rgb(238, 238, 238) solid;
+  border-top: 1px #d3d3d3 solid;
   padding-bottom: 2vw;
 }
 
@@ -205,10 +210,83 @@ body {
 .past-intro {
   margin-top: 0;
   text-align: center;
+  border: 0;
+  height: 10vw;
+  margin-left: -3vw;
+}
+
+#past-images {
+  width: 100%;
+  height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 2vw;
+}
+
+#past-image1 {
+  width: 65vw;
+  height: 55vw;
+}
+
+#past-image1 img {
+  width: 65vw;
+  height: 45vw;
+}
+
+.expo1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: -45.6vw;
+  margin-left: 0;
+  width: 65vw;
+  height: 45vw;
+  background-color: #ec5242;
+  opacity: 0.5;
+}
+
+.expo2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  margin-top: -45.6vw;
+  margin-left: 0;
+  width: 65vw;
+  height: 45vw;
+  background-color: #ec5242;
+  opacity: 0.5;
+}
+
+.img-textyear {
+  position: relative;
+  margin-top: -35vw;
+  margin-left: 21vw;
+  font-size: 10vw;
+  font-family: Lato, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+.img-text {
+  position: relative;
+  margin-top: 1vw;
+  margin-left: 10vw;
+  font-size: 5vw;
+  font-family: Lato, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+
+#past-images2 {
+  width: 70vw;
+  height: 65vw;
 }
 
 #past-image2 img {
-  margin-top: 5vw;
+  width: 65vw;
+  height: 45vw;
 }
 
 footer {
@@ -253,6 +331,19 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  list-style: none;
+}
+
+#banco {
+  width: 8vw;
+}
+
+#google {
+  width: 8vw;
+}
+
+#rep {
+  width: 8vw;
 }
 
 .social-links2 {
@@ -261,8 +352,18 @@ footer {
   margin-top: 10vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+#pinter {
+  width: 8vw;
+  margin-right: 9vw;
+}
+
+#air {
+  width: 8vw;
+  margin-left: 9vw;
 }
 
 .rights {
@@ -304,7 +405,7 @@ footer {
     width: 100vw;
     height: 3vw;
     background-image: none;
-    background-color: rgb(61, 60, 60);
+    background-color: #272a31;
   }
 
   .social-media {
@@ -392,18 +493,18 @@ footer {
     font-family: Cocogoose, sans-serif;
     font-weight: 1200;
     line-height: 4vw;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
   }
 
   .about-intro {
     font-family: Lato, sans-serif;
     font-weight: 50;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     padding: 2vw 2vw 2vw 2vw;
     width: 63vw;
-    height: 19vw;
+    height: 20vw;
     text-align: center;
-    border: 0.5px rgb(245, 245, 245) solid;
+    border: 0.5px #d3d3d3 solid;
     background-color: white;
     margin-top: 8vw;
     margin-left: 5vw;
@@ -414,7 +515,7 @@ footer {
   .contact {
     font-family: Lato, sans-serif;
     font-weight: 50;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     width: 40vw;
     border: 0;
     margin-top: 1vw;
@@ -438,7 +539,7 @@ footer {
     width: 100vw;
     height: 5vw;
     text-align: center;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     font-family: Lato, sans-serif;
     font-size: 2vw;
     font-weight: 700;
@@ -462,6 +563,7 @@ footer {
     line-height: 1.5vw;
     margin-top: 1vw;
     text-align: center;
+    height: 10vw;
   }
 
   #featured-title-past {
@@ -469,12 +571,12 @@ footer {
     width: 100vw;
     height: 5vw;
     text-align: center;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     font-family: Lato, sans-serif;
     font-size: 3vw;
     font-weight: 700;
     padding-top: 5vw;
-    border-top: 1px rgb(238, 238, 238) solid;
+    border-top: 1px #d3d3d3 solid;
     margin-top: 5vw;
   }
 
@@ -495,27 +597,6 @@ footer {
     padding: 0;
   }
 
-  #past-images {
-    width: 80vw;
-    height: 20vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1vw;
-    margin-top: 1vw;
-  }
-
-  #past-image1 img {
-    margin-top: 0;
-    width: 30vw;
-  }
-
-  #past-image2 img {
-    margin-top: 0;
-    width: 30vw;
-  }
-
   footer {
     width: 100vw;
     height: 15vw;
@@ -523,7 +604,6 @@ footer {
     flex-direction: column;
     align-items: center;
     margin-top: 0;
-    background-color: (61, 60, 60);
   }
 
   .footer-container {
@@ -539,7 +619,7 @@ footer {
     align-items: center;
     gap: 2vw;
     padding-top: 0;
-    background-color: rgb(43, 42, 42);
+    background-color: #272a31;
   }
 
   .rights {
@@ -547,7 +627,7 @@ footer {
   }
 
   #textrightscontainerdesktop {
-    color: rgb(204, 198, 198);
+    color: #d3d3d3;
   }
 
   #last-container {
@@ -559,10 +639,83 @@ footer {
   .rights-desktop-text {
     font-size: 1vw;
     margin-left: 0.5vw;
+    color: #d3d3d3;
   }
 
-  #rigths-logodesktop img {
-    width: 45vw;
+  .img-textyear {
+    position: relative;
+    margin-top: -15vw;
+    margin-left: 10vw;
+    font-size: 5vw;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    color: white;
+  }
+
+  .img-text {
+    position: relative;
     margin-top: 1vw;
+    margin-left: 7vw;
+    font-size: 2vw;
+    font-family: Lato, sans-serif;
+    font-weight: 800;
+    color: white;
+  }
+
+  #past-images {
+    width: 80vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    margin-top: 0;
+  }
+
+  #past-image1 img {
+    margin-top: 0;
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image2 img {
+    margin-top: 0;
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image1 {
+    width: 30vw;
+    height: 20vw;
+  }
+
+  #past-image2 {
+    width: 30vw;
+    height: 20.4vw;
+  }
+
+  .expo1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -20.4vw;
+    margin-left: 0;
+    width: 30vw;
+    height: 19.9vw;
+    background-color: #ec5242;
+    opacity: 0.5;
+  }
+
+  .expo2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -20.4vw;
+    margin-left: 0;
+    width: 30vw;
+    height: 19.9vw;
+    background-color: #ec5242;
+    opacity: 0.5;
   }
 }

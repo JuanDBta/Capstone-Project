@@ -2,10 +2,10 @@
 
 <div align="center">
  
-  <img src="images/LOGO.jpg" alt="logo" width="160"  height="auto" />
+  <img src="images\cardenasbackground.jpg" alt="logo" width="160"  height="auto">
   <br/>
 
-  <h3><b>Capstone Project</b></h3>
+  <h3><b>Capstone Project: GM Art Expo 2023</b></h3>
 
 </div>
 
@@ -17,6 +17,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Video Intro](#video-intro)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -31,7 +32,7 @@
 - [📝 License](#license)
 
 
-# 📖 Mobile Portfolio Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
 **[Capstone Project]** is the first project for building an Art exposition Website that will be a main tool in the Web Developer career.
 
@@ -69,6 +70,20 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Video Intro <a name="video-intro"></a>
+
+Check this link to get a short introduction of my project:
+
+- Loom: [Loom](https://www.loom.com/share/0524f28eca464fb097b9c347393b10f4)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://juandbta.github.io/Capstone-Project/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -100,14 +115,12 @@ Open mobile.html using live server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 **Micronaut JUAN DAVID DIAZ**
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
-- Loom: [Loom](https://www.loom.com/share/ebf387404c2f4ad6bbdbd91b318444d2)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

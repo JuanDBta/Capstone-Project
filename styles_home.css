@@ -12,12 +12,12 @@ body {
 }
 
 header {
-  display: block;
+  display: none;
   width: 100vw;
   height: 25vw;
-  background-image: url("images/cardenales.jpg");
-  background-repeat: repeat-x;
-  background-size: contain;
+  background-image: url("images/cardenasbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .social-media {
@@ -86,11 +86,9 @@ header {
   width: 100vw;
   height: 65vw;
   padding-left: 5.2vw;
-  background-color: rgb(246, 246, 246);
-  background-image: url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
+  background-image: url("images/cardenasbackground.jpg");
   background-repeat: no-repeat;
-  background-position-x: 70vw, 30vw, 10vw, 74vw;
-  background-position-y: 2.5vw, 19vw, 22vw, 15.5vw;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -102,7 +100,7 @@ header {
   font-family: Lato, sans-serif;
   font-size: 5.2vw;
   font-weight: 50;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
 }
 
 .expo-title {
@@ -112,7 +110,7 @@ header {
   font-size: 5.5vw;
   font-weight: 1200;
   line-height: 5.5vw;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   padding-top: 4vw;
 }
 
@@ -123,9 +121,9 @@ header {
   font-size: 2vw;
   font-weight: 50;
   line-height: 2.5vw;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   margin-top: 17.9vw;
-  border: 7px white solid;
+  border: 7px #d3d3d3;
   padding: 2vw 2vw 2vw 2vw;
 }
 
@@ -136,7 +134,7 @@ header {
   font-size: 5vw;
   font-weight: 1000;
   line-height: 2vw;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   margin-top: 3vw;
 }
 
@@ -147,11 +145,8 @@ header {
   font-size: 1.8vw;
   font-weight: 700;
   line-height: 2vw;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   margin-top: 1vw;
-  background-image: url("images/moneyfigure.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 #main-program {
@@ -179,7 +174,7 @@ header {
   height: 0;
   margin-left: 46vw;
   margin-top: 5vw;
-  border: 1px rgb(250, 73, 0) solid;
+  border: 1px #ec5242 solid;
   border-radius: 0.5vw;
 }
 
@@ -197,7 +192,7 @@ header {
 .card {
   width: 85vw;
   height: 15vw;
-  background-color: rgba(80, 78, 80, 0.5);
+  background-color: rgba(39, 42, 49, 0.5);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -210,7 +205,7 @@ header {
 
 .card-title {
   margin-left: 0;
-  color: rgb(250, 73, 0);
+  color: #ec5242;
   font-family: Lato, sans-serif;
   font-weight: 600;
   font-size: 3vw;
@@ -221,7 +216,7 @@ header {
 }
 
 .cardmain {
-  color: rgb(204, 198, 198);
+  color: #d3d3d3;
   border: 0;
   font-size: 2vw;
   margin-top: -1vw;
@@ -237,7 +232,7 @@ header {
   width: 75vw;
   height: 15vw;
   margin-left: 12vw;
-  background-color: rgb(245, 40, 13);
+  background-color: #ec5242;
   color: white;
   font-family: Lato, sans-serif;
   font-size: 4vw;
@@ -253,7 +248,7 @@ header {
   width: 100vw;
   height: 5vw;
   text-align: center;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   font-family: Lato, sans-serif;
   font-size: 4vw;
   font-weight: 700;
@@ -307,7 +302,7 @@ header {
   font-style: italic;
   font-weight: 100;
   line-height: 2.5vw;
-  color: rgb(250, 73, 0);
+  color: rgb(39, 42, 49);
   margin-top: 2vw;
   margin-left: 2vw;
 }
@@ -317,7 +312,7 @@ header {
   grid-column: 2;
   margin-top: 2vw;
   width: 3vw;
-  border-color: rgb(204, 198, 198);
+  border-color: #d3d3d3;
   margin-left: 2vw;
 }
 
@@ -328,7 +323,7 @@ header {
   font-size: 1.5vw;
   font-weight: 50;
   line-height: 2vw;
-  color: rgb(80, 76, 76);
+  color: #272a31;
   margin-top: 2.5vw;
   margin-left: 2vw;
 }
@@ -342,7 +337,7 @@ footer {
     width: 100vw;
     height: 3vw;
     background-image: none;
-    background-color: rgb(61, 60, 60);
+    background-color: #272a31;
   }
 
   #menu-button {
@@ -373,7 +368,7 @@ footer {
 
   .social-media li a {
     text-decoration: none;
-    color: white;
+    color: #d3d3d3;
     font-family: Cocogoose, sans-serif;
     font-size: 1vw;
   }
@@ -419,7 +414,7 @@ footer {
     width: 100vw;
     height: 45vw;
     padding-left: 10.2vw;
-    background-color: rgb(246, 246, 246);
+    background-color: #d3d3d3;
     background-image: url("images/cardenasbackground.jpg"), url("images/squares.jpg"), url("images/cc\ figure.jpg"), url("images/zero.jpg"), url("images/background3.jpg");
     background-repeat: repeat-x no-repeat no-repeat no-repeat no-repeat;
     background-position-x: 0, 70vw, 30vw, 10vw, 74vw;
@@ -436,7 +431,7 @@ footer {
     font-family: Lato, sans-serif;
     font-size: 2.8vw;
     font-weight: 50;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
     margin-top: 5vw;
   }
 
@@ -447,7 +442,7 @@ footer {
     font-size: 4.2vw;
     font-weight: 1200;
     line-height: 4vw;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
     padding-top: 1vw;
   }
 
@@ -460,7 +455,7 @@ footer {
     line-height: 1.5vw;
     color: rgb(80, 76, 76);
     margin-top: 10.5vw;
-    border: 7px white solid;
+    border: 7px #d3d3d3 solid;
     padding: 2vw 2vw 2vw 2vw;
   }
 
@@ -471,7 +466,7 @@ footer {
     font-size: 3vw;
     font-weight: 1000;
     line-height: 2vw;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     margin-top: 3vw;
   }
 
@@ -482,7 +477,7 @@ footer {
     font-size: 1vw;
     font-weight: 700;
     line-height: 2vw;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     margin-top: 0;
     background: none;
   }
@@ -503,7 +498,7 @@ footer {
     font-size: 2vw;
     font-weight: 50;
     line-height: 2.5vw;
-    color: white;
+    color: #d3d3d3;
     padding-top: 5vw;
   }
 
@@ -512,7 +507,7 @@ footer {
     height: 0;
     margin-left: 48vw;
     margin-top: 4vw;
-    border: 1px rgb(250, 73, 0) solid;
+    border: 1px #ec5242 solid;
     border-radius: 0.5vw;
   }
 
@@ -530,7 +525,7 @@ footer {
   .card {
     width: 15vw;
     height: 17vw;
-    background-color: rgba(80, 78, 80, 0.5);
+    background-color: #272a31;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -545,7 +540,7 @@ footer {
 
   .card-title {
     margin-left: 0;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
     font-family: Lato, sans-serif;
     font-weight: 600;
     font-size: 1.5vw;
@@ -556,7 +551,7 @@ footer {
   }
 
   .cardmain {
-    color: rgb(204, 198, 198);
+    color: #d3d3d3;
     border: 0;
     font-size: 1vw;
     margin-top: -1vw;
@@ -568,7 +563,7 @@ footer {
 
   #whole-program {
     display: block;
-    color: rgb(204, 198, 198);
+    color: #d3d3d3;
     font-family: Lato, sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
@@ -591,7 +586,7 @@ footer {
     width: 100vw;
     height: 5vw;
     text-align: center;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     font-family: Lato, sans-serif;
     font-size: 2vw;
     font-weight: 700;
@@ -656,7 +651,7 @@ footer {
     font-style: italic;
     font-weight: 100;
     line-height: 1.5vw;
-    color: rgb(250, 73, 0);
+    color: #ec5242;
     margin-top: -1vw;
     margin-left: 4vw;
   }
@@ -666,7 +661,7 @@ footer {
     grid-column: 2;
     margin-top: -3.3vw;
     width: 2vw;
-    border-color: rgb(204, 198, 198);
+    border-color: #d3d3d3;
     margin-left: 4vw;
   }
 
@@ -677,7 +672,7 @@ footer {
     font-size: 1vw;
     font-weight: 50;
     line-height: 1.5vw;
-    color: rgb(80, 76, 76);
+    color: #272a31;
     margin-top: -3.3vw;
     margin-left: 4vw;
   }
@@ -697,7 +692,7 @@ footer {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: rgb(64, 64, 64);
+    background-color: #272a31;
   }
 
   .desktop-title {
@@ -708,7 +703,7 @@ footer {
     font-size: 2vw;
     font-weight: 50;
     line-height: 4vw;
-    color: rgb(204, 198, 198);
+    color: #d3d3d3;
     margin-top: 3vw;
   }
 
@@ -724,7 +719,9 @@ footer {
     margin-top: 2vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-left: 12vw;
+    list-style: none;
   }
 
   .rights-desktop {
@@ -735,10 +732,30 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     padding-top: 0;
-    background-color: rgb(244, 244, 244);
+    background-color: #d3d3d3;
   }
 
   #text-rights-container-desktop2 {
     margin-top: 1vw;
+  }
+
+  #banco {
+    width: 8vw;
+  }
+
+  #google {
+    width: 8vw;
+  }
+
+  #rep {
+    width: 8vw;
+  }
+
+  #pinter {
+    width: 8vw;
+  }
+
+  #air {
+    width: 8vw;
   }
 }
