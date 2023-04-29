@@ -699,10 +699,10 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    margin-top: -20.1vw;
+    margin-top: -20vw;
     margin-left: 0;
     width: 30vw;
-    height: 20vw;
+    height: 19.9vw;
     background-color: #ec5242;
     opacity: 0.5;
   }
@@ -711,10 +711,10 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    margin-top: -20.1vw;
+    margin-top: -20vw;
     margin-left: 0;
     width: 30vw;
-    height: 20vw;
+    height: 19.9vw;
     background-color: #ec5242;
     opacity: 0.5;
   }
