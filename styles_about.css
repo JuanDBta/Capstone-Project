@@ -239,7 +239,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  top: 165vw;
+  top: 165.6vw;
   left: 17.5vw;
   width: 65vw;
   height: 45vw;
@@ -251,7 +251,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  top: 220vw;
+  top: 220.6vw;
   left: 17.5vw;
   width: 65vw;
   height: 45vw;
@@ -699,10 +699,10 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    top: 116vw;
+    top: 127.2vw;
     left: 18.5vw;
     width: 30vw;
-    height: 20vw;
+    height: 20.1vw;
     background-color: #ec5242;
     opacity: 0.5;
   }
@@ -711,10 +711,10 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    top: 116vw;
+    top: 127.2vw;
     left: 51.5vw;
     width: 30vw;
-    height: 20vw;
+    height: 20.1vw;
     background-color: #ec5242;
     opacity: 0.5;
   }
