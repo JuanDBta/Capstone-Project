@@ -699,7 +699,7 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    margin-top: -20vw;
+    margin-top: -20-2vw;
     margin-left: 0;
     width: 30vw;
     height: 19.9vw;
@@ -711,7 +711,7 @@ footer {
     content: "";
     display: block;
     position: absolute;
-    margin-top: -20vw;
+    margin-top: -20.2vw;
     margin-left: 0;
     width: 30vw;
     height: 19.9vw;
