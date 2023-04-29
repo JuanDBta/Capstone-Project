@@ -235,6 +235,30 @@ body {
   height: 45vw;
 }
 
+.expo1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 165vw;
+  left: 17.5vw;
+  width: 65vw;
+  height: 45vw;
+  background-color: #ec5242;
+  opacity: 0.5;
+}
+
+.expo2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 220vw;
+  left: 17.5vw;
+  width: 65vw;
+  height: 45vw;
+  background-color: #ec5242;
+  opacity: 0.5;
+}
+
 .img-textyear {
   position: relative;
   margin-top: -35vw;
@@ -669,5 +693,29 @@ footer {
   #past-image2 {
     width: 30vw;
     height: 20vw;
+  }
+
+  .expo1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 116vw;
+    left: 18.5vw;
+    width: 30vw;
+    height: 20vw;
+    background-color: #ec5242;
+    opacity: 0.5;
+  }
+
+  .expo2::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 116vw;
+    left: 51.5vw;
+    width: 30vw;
+    height: 20vw;
+    background-color: #ec5242;
+    opacity: 0.5;
   }
 }
