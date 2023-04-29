@@ -142,7 +142,7 @@ body {
 
 #Logo-section {
   width: 100vw;
-  height: 200vw;
+  height: 210vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -216,7 +216,7 @@ body {
 }
 
 #past-images {
-  width: 100vw;
+  width: 100%;
   height: 100vw;
   display: flex;
   flex-direction: column;
@@ -692,7 +692,7 @@ footer {
 
   #past-image2 {
     width: 30vw;
-    height: 20vw;
+    height: 20.4vw;
   }
 
   .expo1::after {
