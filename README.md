@@ -37,12 +37,12 @@
 **[Capstone Project]** is the first project for building an Art exposition Website that will be a main tool in the Web Developer career.
 
 ## 🛠 Built With <a name="built-with"></a>
-1- HTML
-2- CSS
-3- JS
-4- Linters
-5- Flexbox
-6- Grid Layout
+1- HTML<br>
+2- CSS<br>
+3- JS<br>
+4- Linters<br>
+5- Flexbox<br>
+6- Grid Layout<br>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -119,7 +119,7 @@ Open mobile.html using live server extension.
 
 - GitHub: [@JuanDBta](https://github.com/JuanDBta)
 - Twitter: [@diazgjuan](https://twitter.com/diazgjuan)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/juan-david-diaz-)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juan-david-d%C3%ADaz-74bb14277/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
